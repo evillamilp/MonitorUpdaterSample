@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/BackUp/Development/codigo/MonitorUpdaterSample/MonitorUpdaterSample/MonitorUpdaterSample.csproj": {}
+  },
+  "projects": {
+    "/Volumes/BackUp/Development/codigo/MonitorUpdaterSample/MonitorUpdaterSample/MonitorUpdaterSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/BackUp/Development/codigo/MonitorUpdaterSample/MonitorUpdaterSample/MonitorUpdaterSample.csproj",
+        "projectName": "MonitorUpdaterSample",
+        "projectPath": "/Volumes/BackUp/Development/codigo/MonitorUpdaterSample/MonitorUpdaterSample/MonitorUpdaterSample.csproj",
+        "packagesPath": "/Users/evillamil/.nuget/packages/",
+        "outputPath": "/Volumes/BackUp/Development/codigo/MonitorUpdaterSample/MonitorUpdaterSample/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/evillamil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/BO-AMX/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNet.Xdt": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
